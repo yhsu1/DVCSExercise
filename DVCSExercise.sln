@@ -23,6 +23,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DVCS_Website(1)", "http://l
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DVCS_sceond_website", "http://localhost:57956", "{CF72E711-8995-4609-9A94-DF83635AC79D}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57956"
+		Debug.AspNetCompiler.PhysicalPath = "DVCS_sceond_website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57956\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57956"
+		Release.AspNetCompiler.PhysicalPath = "DVCS_sceond_website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57956\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "DVCS_sceond_website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +52,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F0232B61-DF60-41D6-81CA-25969AB12C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F0232B61-DF60-41D6-81CA-25969AB12C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF72E711-8995-4609-9A94-DF83635AC79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF72E711-8995-4609-9A94-DF83635AC79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
